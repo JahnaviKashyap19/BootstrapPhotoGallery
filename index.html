@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Photo Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet"href="index.css">
+  <link rel="icon" href="Images\photo-camera.png">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"><img id="navbrand" src="Images\photo-camera.png"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br><br>
+<div class="jumbotron" id="about">
+  <h1 class="display-3">Image Gallery<img src="Images\photo-camera.png"/></h1>
+  <p class="lead">A hub for aesthetic images</p>
+</div>
+<!--Carousel-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+    <li data-target="#demo" data-slide-to="6"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images\flower.jpg" alt="picture" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\cycle.jpg" alt="Cycle" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\way.jpg" alt="way" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\elephant.jpg" alt="way" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\plane.jpg" alt="way" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\car.jpg" alt="way" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\map.jpg" alt="way" width="400" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Images\building.jpg" alt="way" width="400" height="500">
+          </div>
+       </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+</div>
+<!--Image grid-->
+<div class=" polaroids" id="gallery">
+    <div class="polaroid">
+      <img id="photo"src="Images\map.jpg"><p>Bon Voyage</p>
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\castletop.jpg"><p>Wanderlust</p>
+      
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\aesthetic ceiling.jpg"><p>What's Up ?</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\car.jpg"><p>Buckle up buttercup</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo" src="Images\vintage car.jpg"><p>Vroom...</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\plane.jpg"><p>Up in the clouds!</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\scooter italy.jpg"><p>Take a ride</p>
+  
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\way.jpg"><p>Into the wild</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\sunflower.jpg"><p>You're so golden !</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\magazine.jpg"><p>Eunoia</p>
+     
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\cycle.jpg"><p>Cycling away...</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo" src="Images\building.jpg"><p>Citylights</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo" src="Images\elephant.jpg"><p>Royal</p>
+      
+    </div>
+    <div class="polaroid">
+      <img id="photo"src="Images\flower.jpg"><p>Serendipity</p>
+      </div>
+
+  </div>
+  </div>
+  <!-- Footer -->
+<footer class="page-footer font-small" style="background-color:#282828;">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="color:aliceblue;">© 2020 Copyright:
+    Jahnavi Kashyap
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
+

@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body
+{
+    background-image: url("Images/bg.jpg");
+}
+/* nav bar */
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index:20;
+}
+.navbar-brand
+{
+    margin-right:10%;
+}
+.nav-item{
+    color:white;
+}
+#navbrand{
+    width:60px;
+    height:60px;
+}
+.nav-item
+{
+    padding-right:30px;
+}
+.jumbotron
+{
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    color:aliceblue;
+}
+/* Carousel */
+ .carousel{
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+  }
+  /* Image grid */
+  .polaroids {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .polaroid {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    width: auto;
+  }
+  
+  .polaroid img {
+    border: 12px solid #fff;
+    border-bottom: 70px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #888;
+    -moz-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .polaroid p {
+    color: rgb(14, 13, 13);
+    font: 500 18px/22px Courier, sans-serif;
+    font-weight:500;
+    position: absolute;
+    top:82%;
+    bottom: 0;
+    padding-top:0;
+    text-align: center;
+    width: 100%;
+    
+  }
+  #photo
+  {
+      width:230px;
+      height:280px;
+      display:block;
+  }
+  @media screen and (max-device-width:703px) {
+    #demo
+    {
+        display:none;
+    }
+    }
+    /* hover */
+   #photo:hover{
+       opacity:0.4;
+       background-color:gray;
+   }
+   .carousel-item:hover{
+    opacity:0.7;
+    background-color:gray;
+
+   }
